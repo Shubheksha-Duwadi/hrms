@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-bar{
+    display: flex;
+    align-items: center;
+    background-color: rgb(184, 184, 184);
+    width:250px;
+  
+}
+
+.menu-bar ul{
+    display:flex;
+    align-items: center;
+    padding:20px;
+}
+.main-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding:0px;
+}
+
+.first-item a{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;
+}
+
+.sec-item a{
+    display: flex;
+    align-items: center;
+    
+}
+
+
