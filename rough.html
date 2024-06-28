@@ -35,6 +35,44 @@
 
 
 
+
+
+   
+
+  <canvas id="myChart" style="max-width:700px;max-height:700px;"></canvas>
+
+
+
+
+  <script>
+      const xValues = ["Jan", "Feb", "March", "April", "May", "June", "July"];
+      const yValues = [900, 810, 660, 400, 300, 210, 100];
+      const barColors = ["crimson", "green", "purple", "blue", "brown", "grey", "red"];
+
+      new Chart("myChart", {
+          type: "bar",
+          data: {
+              labels: xValues,
+              datasets: [{
+                  backgroundColor: barColors,
+                  data: yValues
+              }]
+          },
+          options: {
+              legend: { display: false },
+              title: {
+                  display: true,
+
+              }
+          }
+      });
+  </script>
+
+
+
+
+
+
 </body>
 
 </html>
