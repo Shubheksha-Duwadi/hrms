@@ -16,6 +16,8 @@ h3{
 }
 
 
+
+
 .container {
 
   height: 800px;
@@ -27,12 +29,12 @@ h3{
 }
 
 .item {
-  background-color: rgb(235, 235, 235);
+
   border-radius: 8px;
 }
 
 .top-nav {
-  grid-column-start: 4;
+  grid-column-start: 2;
   grid-column-end: 4;
 }
 
@@ -58,12 +60,34 @@ h3{
 
 .top-nav {
   display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+.breadcrumb{
+  display: flex;
+  margin:14px 0px 0px 22px;
+ gap:4px;
+  
+}
+
+.breadcrumb li{
+    display: flex;
+    font-size: 14px;
+    
+  }
+
+.breadcrumb li, a{
+  color:#6977AA;
+  
 }
 
 
 .top-nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   gap: 12px;
   padding: 8px;
 }
@@ -120,6 +144,7 @@ h3{
     padding:40px 2px 60px 0px;
     height:100%;
     position: fixed;
+    background-color: #F8F8F8;
 }
 
 
@@ -193,7 +218,7 @@ section{
 
 .sub-sec-1{
     
-    background-color: rgb(209, 209, 209);;
+    background-color: #F8F8F8;
     border-radius: 8px;
     width:180px;
     display:flex;
@@ -240,7 +265,7 @@ section{
 .clients{
   display:flex;
   justify-content: space-between;
-  background-color : rgb(230, 230, 230);
+  background-color : #F8F8F8;
   padding:0px 24px;
   border-radius:12px;
 }
@@ -252,7 +277,7 @@ section{
 .c1{
   display: flex;
   gap:6px;
-  background-color: rgb(236, 236, 236);
+  background-color:#ffffff;
   border-radius: 18px;
   width:480px;
   margin:12px 0px 0px 0px;
@@ -306,7 +331,8 @@ background-color: none;
 
 .firstSub-part{
   display:flex;
- gap:0px;
+  gap:24px;
+
 }
 
 .item1 h3{
@@ -316,9 +342,9 @@ background-color: none;
 
 
 .item2{
- margin:0px 0px;
- padding: 0px 12px;
-  background-color: rgb(230, 230, 230);
+ margin:20px 0px;
+ padding: 0px 32px;
+  background-color:#F8F8F8;
   border-radius: 12px;
   height:340px;
 }
@@ -338,7 +364,7 @@ background-color: none;
   gap:12px;
   margin:15px 0px  ;
   font-size: 14px;
-  color:#676767;
+  color:#F8F8F8;
 }
 
 .lev1 p{
@@ -368,7 +394,7 @@ background-color: none;
   width:94px;
   margin:12px 12px 0px 12px;
   padding: 28px 32px;
-  background-color: #d7d7d7;
+  background-color: #F8F8F8;
   border-radius: 12px;
   font-size:12px;
 }
@@ -396,8 +422,10 @@ background-color: none;
 
 .calender{
   width:338px;   
-  background-color: #fff;
-  border-radius: 12px;;
+  background-color: #eeeef4;
+  margin:18px 0px 0px 0px;
+  border-radius: 12px;
+ 
 }
 
 
@@ -490,7 +518,7 @@ background-color: none;
 
 
 table{
-  background-color: #fff;
+  background-color: #F8F8F8;
 }
 
 .table-head{
@@ -509,3 +537,6 @@ table, th, td{
 }
 
 
+input{
+  margin:0px 12px 0px 0px;
+}

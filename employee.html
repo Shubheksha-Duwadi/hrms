@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/all css/employee.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="item top-nav">
+           
+            <div class="breadcrumb">
+                <li><a href="dashboard.html">Home / </a></li>
+                <li>Employees /</li>
+              
+            </div>
+            <ul>
+                  
+                <li>
+                    <button class="btn-1">Search <i class="fa-solid fa-magnifying-glass"></i></button>
+                </li>
+                <li>
+                    <button class="btn-2">Lang <i class="fa-solid fa-angle-down"></i></button>
+                </li>
+                <li><i class="fa-regular fa-bell"></i></li>
+                <li><i class="fa-solid fa-eye"></i></li>
+                <li class="hr-profile">
+                    <img src="/images/profile.jpg" alt="pp" width="32px" height="32px" />
+                    <p id="hr">HR Manager <i class="fa-solid fa-angle-down"></i></p>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div class="item side-nav">
+
+            <div class="heading">
+                <img src="/images/logo1.svg" alt="logo" width="30px">
+                <h3>Codeology</h3>
+            </div>
+            <br>
+
+
+
+            <div class="menu-bar">
+                <ul>
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-desktop"></i>
+
+                                    Dashboard Overview
+                            </div>
+
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+                    </li>
+
+
+
+                    
+                    <li>
+                        <span style=background-color:#D7DCEF;> 
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-user-tie"></i>
+                            Employees
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+                    </span>
+                    </li>
+               
+
+
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"><i class="fa-brands fa-microsoft"></i>
+                                    Departments
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+
+                    </li>
+
+
+
+
+
+
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-briefcase"></i>
+                                    Projects
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+
+                    </li>
+
+
+
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-user-check"></i>
+                                    Attendance
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+
+                    </li>
+
+
+
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-calendar-days"></i>
+                                    Holidays
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+
+                    </li>
+
+
+
+
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-file-lines"></i>
+                                    Leaves
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+
+                    </li>
+
+
+
+
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-money-bill-wave"></i>
+                                    Payroll
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+
+                    </li>
+
+
+
+
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-gear"></i>
+                                    Settings
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+
+                    </li>
+
+
+
+
+                    <li>
+                        <div class="main-item">
+                            <div class="first-item">
+                                <a href="#"> <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                                    Logout
+                            </div>
+                            <div class="sec-item">
+                                <i class="fa-solid fa-angle-right"></i>
+                            </div>
+                            </a>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+
+     
+
+
+
+
+<!-- main section -->
+
+<div class="item main-content">
+   
+    <button class="add-new"> <a href="add-employees(1).html">Add new member +</a></button>
+    <section>
+
+    <table>
+        <tr>
+           
+            <th >Employee Name</th>          
+            <th >Employee ID</th>        
+            <th >Department</th> 
+            <th>Phone Number</th>    
+            <th>Email</th>    
+            <th >Designation</th>       
+            <th >Type </th>         
+            <th>Action</th> 
+            
+        </tr>
+    
+        <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+    
+    
+        <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+        <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+
+      <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+       <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+
+       <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+
+         <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+
+      <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+
+         <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+
+        <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+
+         <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+
+
+        <tr>
+           
+            <td> <input type="checkbox">  Joe Watson</td>
+            <td>5616546510</td>
+            <td>Design </td>
+            <td>9898989898 </td>
+            <td>abc.codeologytech@gmail.com </td>
+            <td>Team Lead - Design </td>
+            <td>Employee </td>
+            <td><i class="fa-solid fa-pen"></i> <i class="fa-solid fa-file-lines"></i>   <i class="fa-regular fa-trash-can"></i></td>
+        </tr>
+    
+    </table>
+    </section>
+
+</div>
+
+
+        </body>
+        </html>

@@ -3,17 +3,22 @@
     margin:0;
     padding:0;
     font-family:"Inria Sans", sans-serif;
-    background-image: url("bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: no-repeat; 
     background-image: blur(2px);
    
     
 }
+ 
+body{
+    background-image: url("/images/bg.png");
+    background-size: cover;
+}
 
 
-
-
+.breadcrumb{
+    display: flex;
+    gap:4px;
+}
 
 
 
